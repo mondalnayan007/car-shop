@@ -90,7 +90,7 @@
                        
                </section>
 
-      <section class="navbar-section px-10 py-5">
+      <section class="navbar-section px-10 py-3">
              <nav class="grid grid-cols-6 gap-4">
                        <div class="nav-left">
                             
@@ -153,14 +153,14 @@
       </section>
 
 
-      <section class="lower-nav-section grid grid-cols-4 gap-10">
+      <section class="lower-nav-section grid grid-cols-4 gap-10 ">
             <div class="category border-r-2 border-r-gray-200 flex items-center justify-center">
                     
                                 <button id="multiLevelDropdownButton" data-dropdown-toggle="multi-dropdown" class="text-black flex items-center justify-between gap-4     font-medium  text-sm px-5 py-2.5 text-center   " type="button"><i class="fa-solid fa-bars"></i><span>SHOP BY CATEGORIES</span> 
                                 </button>
 
                                 <!-- Dropdown menu -->
-                                <div id="multi-dropdown" class="z-10 hidden bg-black text-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                <div id="multi-dropdown" class="z-50 hidden bg-black text-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
                                     <ul class="py-2 text-sm " aria-labelledby="multiLevelDropdownButton">
                                     <li>
                                         <a href="#" class="block px-4 py-2   hover:text-orange-400">Dashboard</a>
@@ -169,8 +169,8 @@
                                         <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full  py-2block px-4 py-2   hover:text-orange-400">Dropdown<svg class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                                 </svg></button>
-                                        <div id="doubleDropdown" class="z-10  hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-full dark:bg-gray-700">
-                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
+                                        <div id="doubleDropdown" class="z-20  hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-full dark:bg-gray-700">
+                                            <ul class="py-2  text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
                                             <li>
                                                 <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Overview</a>
                                             </li>
@@ -236,16 +236,16 @@
 
 
 
-      <section class="hero-section mt-6">
+      <section class="hero-section mt-6 ">
                
 
 
 
-<div id="controls-carousel" class="relative w-full" data-carousel="slide">
+<div id="controls-carousel" class="relative w-full " data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-[450px] overflow-hidden  ">
          <!-- Item 1 -->
-        <div class=" duration-1000  bg-[url('assets/hero-1.jpg')] bg-cover grid grid-cols-2" data-carousel-item>
+        <div class=" duration-1000  bg-[url('assets/hero-1.jpg')] z-10 bg-cover grid grid-cols-2" data-carousel-item>
                 <div class="inner">
 
                 </div>
@@ -256,7 +256,7 @@
                 </div>
         </div>
         <!-- Item 2 -->
-        <div class=" duration-1000  bg-[url('assets/hero-2.jpg')] bg-cover grid grid-cols-2" data-carousel-item="active">
+        <div class=" duration-1000   bg-[url('assets/hero-2.jpg')] z-10 bg-cover grid grid-cols-2" data-carousel-item="active">
                                     <div class="inner">
 
                 </div>
@@ -359,16 +359,16 @@
         <!-- Product section start -->
                
         <section class="product-section my-8">
-                 <div class="product-heading">
+                 <div class="product-heading my-10">
                     <h1 class="text-4xl font-bold text-center">Latest Products</h1>
                  </div>
 
 
-                 <div class="products grid grid-cols-4 gap-6">
+                 <div class="products grid grid-cols-4 gap-6 px-8">
                       
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
                                         <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <h1 class="product-title text-lg"><a href="">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</a></h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -399,8 +399,8 @@
 
                        </div>
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
-                                        <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <img src="./assets/products/p-2.jpg" alt="">
+                                        <h1 class="product-title text-lg"><a href="">New Upgraded 1-Piece Rear Driveshaft & Parts</a></h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -421,7 +421,7 @@
                     </svg>
                 </div>              
 
-                <p class="text-yellow-500 text-xl font-semibold my-3">$80</p>
+                <p class="text-yellow-500 text-xl font-semibold my-3">$60</p>
 
 
                                     <div class="btn flex items-center justify-center mb-5">
@@ -431,8 +431,8 @@
 
                        </div>
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
-                                        <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <img src="./assets/products/p-3.jpg" alt="">
+                                        <h1 class="product-title text-lg">Valeo Maruti Swift/Dzire Ritz/Sx4 1 Clutch Set</h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -453,7 +453,7 @@
                     </svg>
                 </div>              
 
-                <p class="text-yellow-500 text-xl font-semibold my-3">$80</p>
+                <p class="text-yellow-500 text-xl font-semibold my-3">$60</p>
 
 
                                     <div class="btn flex items-center justify-center mb-5">
@@ -463,8 +463,8 @@
 
                        </div>
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
-                                        <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <img src="./assets/products/p-4.jpg" alt="">
+                                        <h1 class="product-title text-lg"><a href="">Front Brake Disk + Brake pads for Yamaha VINO</a></h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -485,7 +485,7 @@
                     </svg>
                 </div>              
 
-                <p class="text-yellow-500 text-xl font-semibold my-3">$80</p>
+                <p class="text-yellow-500 text-xl font-semibold my-3">$110</p>
 
 
                                     <div class="btn flex items-center justify-center mb-5">
@@ -495,8 +495,8 @@
 
                        </div>
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
-                                        <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <img src="./assets/products/p-5.jpg" alt="">
+                                        <h1 class="product-title text-lg"><a href="">Bluetooth Receiver with LCD Screen For Car</a></h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -517,7 +517,7 @@
                     </svg>
                 </div>              
 
-                <p class="text-yellow-500 text-xl font-semibold my-3">$80</p>
+                <p class="text-yellow-500 text-xl font-semibold my-3">$30</p>
 
 
                                     <div class="btn flex items-center justify-center mb-5">
@@ -527,8 +527,8 @@
 
                        </div>
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
-                                        <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <img src="./assets/products/p-6.jpg" alt="">
+                                        <h1 class="product-title text-lg"><a href="">New Hi-Power Maintenance Free Battery (Super Power)</a></h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -549,7 +549,7 @@
                     </svg>
                 </div>              
 
-                <p class="text-yellow-500 text-xl font-semibold my-3">$80</p>
+                <p class="text-yellow-500 text-xl font-semibold my-3">$120</p>
 
 
                                     <div class="btn flex items-center justify-center mb-5">
@@ -559,8 +559,8 @@
 
                        </div>
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
-                                        <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <img src="./assets/products/p-7.jpg" alt="">
+                                        <h1 class="product-title text-lg"><a href="">Ineedup Turbocharger Fit For All 3.0L-6.0L Engine</a></h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -581,7 +581,7 @@
                     </svg>
                 </div>              
 
-                <p class="text-yellow-500 text-xl font-semibold my-3">$80</p>
+                <p class="text-yellow-500 text-xl font-semibold my-3">$125</p>
 
 
                                     <div class="btn flex items-center justify-center mb-5">
@@ -591,8 +591,8 @@
 
                        </div>
                        <div class="product border-1 border-zinc-200 hover:shadow-2xl hover:border-none rounded-lg p-3">
-                                        <img src="./assets/products/p-1.jpg" alt="">
-                                        <h1 class="product-title text-lg">Fuel Twitch - D771 / Candy Red & Milled 6 LUG</h1>
+                                        <img src="./assets/products/p-8.jpg" alt="">
+                                        <h1 class="product-title text-lg"><a href="">Thinkware F770 2CH FHD Wi-Fi Dash Camera</a></h1>
                                         
 
                 <div class="flex items-center my-2 text-lg">
@@ -613,7 +613,7 @@
                     </svg>
                 </div>              
 
-                <p class="text-yellow-500 text-xl font-semibold my-3">$80</p>
+                <p class="text-yellow-500 text-xl font-semibold my-3">$100</p>
 
 
                                     <div class="btn flex items-center justify-center mb-5">
