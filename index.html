@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CarsBD</title>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -11,9 +11,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
-               <section class="top-bar flex items-center justify-between bg-[#ffb81f]  px-10">
+<body class="relative">
+    
+               <section class="top-bar   flex items-center justify-between bg-[#ffb81f]  px-10">
                        <div class="top-left">
                             <p class="text-sm">Get Upto 25% Cashback On First Order: GET25OFF - <a href="">SHOP NOW</a></p>
                        </div>
@@ -91,7 +91,7 @@
                </section>
 
       <section class="navbar-section px-10 py-3 ">
-             <nav class="grid grid-cols-6 gap-4 sticky top-0">
+             <nav class="grid grid-cols-6 gap-4 ">
                        <div class="nav-left">
                             <img class="h-[56px] " src="assets/carshop-logo-2.png" alt="">
                        </div>
@@ -153,7 +153,7 @@
       </section>
 
 
-      <section class="lower-nav-section grid grid-cols-4 gap-10 ">
+      <section class="lower-nav-section grid grid-cols-4 gap-10 bg-white py-3 sticky top-0 z-40">
             <div class="category border-r-2 border-r-gray-200 flex items-center justify-center">
                     
                                 <button id="multiLevelDropdownButton" data-dropdown-toggle="multi-dropdown" class="text-black flex items-center justify-between gap-4     font-medium  text-sm px-5 py-2.5 text-center   " type="button"><i class="fa-solid fa-bars"></i><span>SHOP BY CATEGORIES</span> 
@@ -212,11 +212,11 @@
             <div class="menu col-span-2">
                    <ul class=" flex items-center justify-between  py-2 font-medium  text-sm">
                          
-                        <li>HOME</li>
-                        <li>PRODUCTS</li>
-                        <li>TOP DEALS</li>
-                        <li>BLOG</li>
-                        <li>CONTUCT US</li>
+                        <li class="  hover:text-[#e07340] hover:underline"><a href="">HOME</a></li>
+                        <li class="  hover:text-[#e07340] hover:underline"><a href="">PRODUCTS</a></li>
+                        <li class="  hover:text-[#e07340] hover:underline"><a href="">TOP DEALS</a></li>
+                        <li class="  hover:text-[#e07340] hover:underline"><a href="">BLOG</a></li>
+                        <li class="  hover:text-[#e07340] hover:underline"><a href="">CONTUCT US</a></li>
                         
                        
                    </ul>
@@ -236,7 +236,7 @@
 
 
 
-      <section class="hero-section mt-6 ">
+      <section class="hero-section  ">
                
 
 
@@ -324,7 +324,7 @@
 
 
 
-    </header>
+  
 
     <main>
 
@@ -658,7 +658,7 @@
             <h1 class="best-selling-title text-center text-4xl font-bold mt-10">Best Selling Products</h1>
 
             <div class="best-selling-products grid grid-cols-5 gap-5 my-16">
-                <div class="left col-span-2 bg-[url('/assets/best-selling-banner.jpg')] bg-cover hover:scale-110 overflow-hidden">
+                <div class="left col-span-2 bg-[url('./assets/best-selling-banner.jpg')] bg-cover ">
                      <a href="">
 
                         <div class="title-container text-center px-6 py-8">
